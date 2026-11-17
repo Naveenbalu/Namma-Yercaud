@@ -1,0 +1,6 @@
+.hard-shadow { box-shadow: 4px 4px 0px #000000; }
+.hard-shadow-lg { box-shadow: 8px 8px 0px #000000; }
+.hard-shadow-sm { box-shadow: 2px 2px 0px #000000; }
+.btn-active:active { transform: translate(4px, 4px); box-shadow: none; }
+.pb-safe { padding-bottom: env(safe-area-inset-bottom, 80px); }
+body { margin: 0; }
